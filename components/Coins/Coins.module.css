@@ -15,7 +15,12 @@
 }
 
 .coin_row:hover {
-  background: #4444ec;
+  background-color:inherit;
+}
+
+.coin_app {
+  display: flex;
+  align-items: center;
 }
 
 .coin {
@@ -36,12 +41,13 @@
   width: 150px;
   margin-left: 40px;
   margin-top: 25px;
+  color: white;
 }
 
 .coin_symbol {
   text-transform: uppercase;
   margin-left: 5px;
- 
+ color: rebeccapurple;
   
   
 } 
@@ -52,6 +58,7 @@
   justify-content: space-between;
   width: 100%;
   margin-left: 15px;
+  color: rgb(224, 152, 17);
 }
 
 .coin_price {

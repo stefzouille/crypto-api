@@ -6,15 +6,17 @@
 }
 
 .coin_input {
-  background: #bd1677;
+  background: linear-gradient(to right, blue, red);
   border: none;
   padding: 16px;
   border-radius: 4px;
   outline: none;
   height: 100%;
-  width: 100ù;
+  width: 100%;
+  color:white;
 }
 
 .coin_input::placeholder {
-  color:#e2e2e2;
+ 
+  background: linear-gradient(to right, blue, red);
 }
