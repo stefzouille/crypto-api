@@ -5,6 +5,7 @@ import CoinList from "../components/CoinList";
 import SearchBar from "../components/SearchBar";
 
 
+
 export default function Home({ filteredCoins }) {
   return (
     <div>
